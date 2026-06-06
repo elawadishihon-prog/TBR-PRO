@@ -1630,7 +1630,7 @@ function Landing({onLogin,onRegister}){
 }
 
 // ── MAIN ─────────────────────────────────────────────────────────
-export default function App(){
+  function App(){
   const[screen,setScreen]=useState("landing");
   const[user,setUser]=useState(null);
   const login=u=>{setUser(u);setScreen("app");};
